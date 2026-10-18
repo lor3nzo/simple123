@@ -1,0 +1,17 @@
+Options -Indexes
+DirectoryIndex index.php
+<FilesMatch "^(config\.php|config\.example\.php|composer\.(json|lock)|README\.md|schema\.sql|LICENSE|NOTICE|SECURITY\.md|CHANGELOG\.md|\.gitignore|\.env.*)$">
+  Require all denied
+</FilesMatch>
+RewriteEngine On
+# Prevent script execution through uploaded files
+RewriteRule ^uploads/.*\.(php[0-9]?|phtml|phar)(/|$) - [F,L,NC]
+RewriteRule ^(?:vendor|storage|src)/ - [F,L,NC]
+RewriteRule ^(?:\.git|\.github)/ - [F,L,NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+
+<FilesMatch "^(cron\.php)$">
+  Require all denied
+</FilesMatch>

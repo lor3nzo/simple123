@@ -1,0 +1,1 @@
+{"name":"osgk/simple123","description":"Minimal single-admin Markdown blog","require":{"php":"^8.2","ext-pdo":"*","ext-pdo_mysql":"*","ext-json":"*","ext-mbstring":"*","ext-zip":"*","google/apiclient":"^2.18","league/commonmark":"^2.6","ezyang/htmlpurifier":"^4.18"},"config":{"sort-packages":true}}

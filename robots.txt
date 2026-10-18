@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /admin
+Disallow: /editor
+Disallow: /settings
+Disallow: /auth/
+Disallow: /login

@@ -1,0 +1,27 @@
+# Never commit runtime secrets, databases, personal data, or uploaded media
+/config.php
+/.env
+/.env.*
+!/.env.example
+/vendor/
+/storage/*
+!/storage/.htaccess
+/uploads/*
+!/uploads/.htaccess
+*.log
+*.bak
+*.backup
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.zip
+*.tar
+*.tar.gz
+.DS_Store
+__MACOSX/
