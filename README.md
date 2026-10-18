@@ -4,7 +4,11 @@
 
 A minimal single-administrator Markdown blog built with PHP 8.2+ and MySQL, featuring Google OpenID Connect sign-in, scheduled publishing, image/PDF uploads, and customizable themes.
 
-**Release:** v0.2.3 · **License:** [Apache License 2.0](LICENSE)
+[![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?style=flat-square&logo=php&logoColor=white)](https://www.php.net/)
+[![Database](https://img.shields.io/badge/Database-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Editor](https://img.shields.io/badge/Editor-Markdown-2EA44F?style=flat-square&logo=markdown&logoColor=white)](https://www.markdownguide.org/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-D4A017?style=flat-square)](LICENSE)
+[![Version](https://img.shields.io/badge/Version-v0.2.3-2563EB?style=flat-square)](CHANGELOG.md)
 
 ## Features
 
